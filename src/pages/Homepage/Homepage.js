@@ -1,12 +1,15 @@
 import React from 'react'
 import "./Homepage.css"
-import About from './body/About/About'
+import Banner from './body/Banner/Banner'
 import Services from './body/Services/Services'
+import About from './body/About/About'
 
 const Homepage = () => {
     return (
         <>
+            <Banner />
             <Services />
+            <About />
         </>
     )
 }
