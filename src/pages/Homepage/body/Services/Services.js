@@ -6,8 +6,11 @@ import MultiActionAreaCard from '../../../../components/materialui/MultiActionAr
 
 const Services = () => {
     return (
-        <section className=''>
-            <h3 className='tilte'> Services </h3>
+        <section className='services'>
+            <div className='text-container'>
+                <h3 className='title'> Services </h3>
+                <p className='description'>The services we provide...</p>
+            </div>
             <div className='card-container'>
                 {ServicesData.map(service => (
                     <MultiActionAreaCard
