@@ -7,26 +7,27 @@
     padding: 30px;
 }
 
-.text-container {
+.services-text-container {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
+    padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
     border-left: 1rem solid chartreuse;
 }
 
-.title {
+.services-title {
+    display: block;
+    font-size: 2rem;
+}
+
+.services-description {
     display: block;
     font-size: 1.5rem;
 }
 
-.description {
-    display: block;
-    font-size: 1rem;
-}
-
-.card-container {
+.services-card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
     grid-gap: 30px;
