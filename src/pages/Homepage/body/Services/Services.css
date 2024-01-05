@@ -4,10 +4,6 @@
     background-image: url('./images/bg-services.webp');
     background-size: cover;
     background-position: center;
-    padding: 0;
-}
-
-.services {
     padding: 30px;
 }
 
