@@ -20,6 +20,7 @@ const About = () => {
         <p className='about-description'>{AboutDescription}</p>
       </div>
       <div className='about-ratings'>
+        <h4 className='about-ratings-headings'>Ratings of our different Companies</h4>
         <Ratings ratingsData={ratingsData} />
       </div>
       <div className='about-button'>
