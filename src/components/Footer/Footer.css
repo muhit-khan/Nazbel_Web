@@ -1,0 +1,10 @@
+.footer {
+  margin-top: auto;
+  background-color: #d2deff;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}

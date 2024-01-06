@@ -1,5 +1,16 @@
 /* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Kaushan+Script&family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400;500&family=Comic+Neue:wght@300;400;700&display=swap");
 
+/* root */
+:root {
+  --font-comic: "Comic Neue", cursive;
+  --font-hand: "Handlee", cursive;
+  --font-kaush: "Kaushan Script", cursive;
+  --font-mons: "Montserrat", sans-serif;
+  --font-open: "Open Sans", sans-serif;
+  --color-black: #333;
+  --color-white: #fff;
+}
 
 /* Preset */
 
@@ -18,10 +29,37 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 /* Reusable */
 
 .container {
-  max-width: 114rem;
+  max-width: 140rem;
   margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 100%;
+}
+
+.title {
+  position: relative;
+  margin: 2rem 0;
+  font-family: var(--font-comic);
+  font-size: 3.5rem;
+  padding-left: 2rem;
+  color: #333;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0.5rem;
+  background: linear-gradient(45deg, #af1010, #0f9d1d);
+  border-radius: 0.5rem;
 }

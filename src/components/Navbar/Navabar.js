@@ -1,10 +1,45 @@
-import React from 'react'
-import "./Navbar.css"
+import React from "react";
+import "./Navbar.css";
+import { FaTwitter, FaFacebook, FaDribbble } from "react-icons/fa";
+import logo from "../../assets/nazbel-logo.png";
 
 const Navabar = () => {
-    return (
-        <div>Navabar</div>
-    )
-}
+  const navItems = ["Home", "Pricing", "About", "Contact"];
+  const socialItem = [
+    <FaTwitter style={{ color: "#52D3D8" }} />,
+    <FaFacebook style={{ color: "#38419D" }} />,
+    <FaDribbble style={{ color: "#AF2655" }} />,
+  ];
 
-export default Navabar
+  return (
+    <nav className="navbar">
+      <div className="container">
+        <div className="navbar-container">
+          <div className="nav-left">
+            <img src={logo} alt="logo" height="40" />
+          </div>
+          <ul className="nav-middle">
+            {navItems.map((item, index) => {
+              return (
+                <li key={index}>
+                  <a href="#">{item}</a>
+                </li>
+              );
+            })}
+          </ul>
+          <ul className="nav-right">
+            {socialItem.map((item, index) => {
+              return (
+                <li key={index}>
+                  <a href="#">{item}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navabar;
