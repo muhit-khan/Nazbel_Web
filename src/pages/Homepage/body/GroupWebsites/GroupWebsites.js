@@ -22,7 +22,7 @@ const GroupWebsites = () => {
   ];
 
   return (
-    <section className="group-websites">
+    <section className="group-websites" data-aos="fade-up">
       <div className="container">
         <h1 className="title-middle">Our Group Websites</h1>
 

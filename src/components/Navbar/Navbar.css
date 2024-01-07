@@ -3,7 +3,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  /* background: linear-gradient(#000000, #140000); */
   background: #fff;
   z-index: 10;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
@@ -13,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 .nav-middle,
@@ -29,15 +28,14 @@
   letter-spacing: 1px;
   color: #333;
   margin-left: 5rem;
-  font-size: 1.7rem;
-  font-family: var(--font-comic);
+  font-size: 1.5rem;
+  font-family: var(--font-mons);
   font-weight: 600;
   transition: all 0.5s ease;
 }
 
 .nav-middle a:hover {
-  color: #165120;
-  transform: scale(1.1);
+  color: #c37331;
 }
 
 .nav-right a {

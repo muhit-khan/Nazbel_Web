@@ -5,7 +5,7 @@ import nazbel2 from "../../../../assets/About/nazbel2.webp";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" data-aos="fade-up">
       <div className="container">
         <h2 className="title">Nazbel Group</h2>
         <div className="about-container">

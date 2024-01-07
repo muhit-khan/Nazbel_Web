@@ -8,6 +8,10 @@ import Footer from "../../components/Footer/Footer";
 import Gallery from "./body/Gallery/Gallery";
 import Founder from "./body/Founder/Founder";
 import GroupWebsites from "./body/GroupWebsites/GroupWebsites";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const Homepage = () => {
   return (

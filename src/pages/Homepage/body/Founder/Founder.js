@@ -24,7 +24,7 @@ const Founder = () => {
   ];
 
   return (
-    <section className="founder">
+    <section className="founder" data-aos="fade-up">
       <div className="container">
         <h2 className="title">Founder's Corner</h2>
         <div className="founder-container">
