@@ -9,7 +9,7 @@
 .website-items {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 5rem;
+  gap: 3rem;
   padding: 5rem 7rem 0;
 }
 
