@@ -114,9 +114,6 @@
   .founder-info {
     grid-template-columns: 1fr;
   }
-  .founder-info-img {
-    /* width: 80%; */
-  }
 }
 
 @media (max-width: 650px) {
