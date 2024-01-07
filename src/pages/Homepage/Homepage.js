@@ -12,7 +12,7 @@ const Homepage = () => {
       <Navabar />
       <Banner />
       <About />
-      {/* <Services /> */}
+      <Services />
       <Footer />
     </>
   );

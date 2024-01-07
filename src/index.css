@@ -46,7 +46,7 @@ body {
 
 .title {
   position: relative;
-  margin: 2rem 0;
+  margin: 2rem 0 4rem;
   font-family: var(--font-comic);
   font-size: 3.5rem;
   padding-left: 2rem;
@@ -62,4 +62,36 @@ body {
   width: 0.5rem;
   background: linear-gradient(45deg, #af1010, #0f9d1d);
   border-radius: 0.5rem;
+}
+
+.title-middle {
+  position: relative;
+  margin: 2rem 0 3rem;
+  font-family: var(--font-comic);
+  font-size: 3.5rem;
+  padding-bottom: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.title-middle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 0.5rem;
+  width: 10rem;
+  background: linear-gradient(45deg, #af1010, #0f9d1d);
+  border-radius: 0.5rem;
+}
+
+.title-text {
+  text-align: center;
+  font-size: 1.6rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  color: #7e7e7e;
+  font-family: var(--font-mons);
+  margin-bottom: 3rem;
 }
