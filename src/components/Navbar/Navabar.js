@@ -4,7 +4,7 @@ import { FaTwitter, FaFacebook, FaDribbble } from "react-icons/fa";
 import logo from "../../assets/Banner/nazbel-logo.png";
 
 const Navabar = () => {
-  const navItems = ["Home", "Pricing", "About", "Contact"];
+  const navItems = ["Home", "About", "Services", "Contact"];
   const socialItem = [
     <FaTwitter style={{ color: "#52D3D8" }} />,
     <FaFacebook style={{ color: "#38419D" }} />,

@@ -1,10 +1,104 @@
 .footer {
   margin-top: auto;
-  background-color: #d2deff;
-  padding: 2rem 0;
+  background-color: #fdf8eb;
+  padding: 5rem 0;
 }
 
-.footer-container {
+.footer-top-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo-container p {
+  font-size: 1.6rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  color: #575757;
+}
+.footer-logo-container p svg {
+  margin-right: 1rem;
+  margin-left: -0.7rem;
+}
+
+.footer-subscribe-container h3 {
+  font-size: 2.5rem;
+  font-family: var(--font-comic);
+  margin-bottom: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer-subscribe {
   display: flex;
   justify-content: space-between;
+  background-color: var(--color-white);
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.footer-subscribe input {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background-color: none;
+  border: none;
+  outline: none;
+}
+.footer-subscribe button {
+  border: none;
+  padding: 2.5rem 3rem;
+  font-family: var(--font-comic);
+  font-size: 1.7rem;
+  background-color: #7e30e1;
+  color: var(--color-white);
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+.footer-subscribe button:hover {
+  background-color: #481a84;
+}
+
+.footer-downloads-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-downloads-container h3 {
+  font-size: 2.5rem;
+  font-family: var(--font-comic);
+  margin-bottom: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer-download-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-download-img img {
+  cursor: pointer;
+  width: 20rem;
+  margin-left: 1rem;
+}
+
+.footer-bottom-container {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #c3c3c3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom-container p {
+  color: #545454;
 }
