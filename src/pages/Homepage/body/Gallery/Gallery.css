@@ -1,0 +1,70 @@
+.gallery {
+  padding: 5rem 0 10rem;
+  background-image: url("https://www.adani.com/-/media/Project/Adani/Background-Images/bg-business.png?la=en&hash=E36B31B8DA7E830CDD8C824B23645C76");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 10rem;
+  margin-top: 10rem;
+  justify-items: center;
+  padding: 0 10rem;
+}
+
+.gallery-collection-cover {
+  padding: 1rem;
+  border-radius: 50rem;
+  overflow: hidden;
+}
+
+.gallery-collection {
+  cursor: pointer;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  max-height: 30rem;
+  max-width: 30rem;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-collection::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(2, 56, 122, 0.329);
+  transition: all 0.4s ease;
+}
+
+.gallery-collection:hover::after {
+  background-color: rgba(2, 56, 122, 0.81);
+  content: "Click to open";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: var(--font-comic);
+}
+
+.gallery-collection img {
+  height: 30rem;
+  display: block;
+}
+
+.gallery-collection-text {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-family: var(--font-hand);
+  letter-spacing: 1px;
+}

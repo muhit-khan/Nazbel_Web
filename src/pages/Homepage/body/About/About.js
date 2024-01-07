@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="about">
       <div className="container">
-        <h2 className="title">About</h2>
+        <h2 className="title">Nazbel Group</h2>
         <div className="about-container">
           <div className="about-text">
             <p>
