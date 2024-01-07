@@ -31,7 +31,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="gallery" data-aos="fade-right">
+    <div className="gallery" data-aos="fade-up">
       <div className="container">
         <h2 className="title-middle">Gallery</h2>
         <p className="title-text">

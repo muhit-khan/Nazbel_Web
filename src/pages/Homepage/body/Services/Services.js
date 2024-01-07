@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <section className="services" data-aos="fade-left">
+    <section className="services" data-aos="fade-up">
       <div className="container">
         <h2 className="title-middle">Services</h2>
         <p className="title-text">
