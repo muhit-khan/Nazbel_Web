@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { FaTwitter, FaFacebook, FaDribbble } from "react-icons/fa";
-import logo from "../../assets/nazbel-logo.png";
+import logo from "../../assets/Banner/nazbel-logo.png";
 
 const Navabar = () => {
   const navItems = ["Home", "Pricing", "About", "Contact"];

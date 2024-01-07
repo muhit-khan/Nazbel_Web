@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Banner.css";
 import { FaAngleDoubleDown } from "react-icons/fa";
-import logo from "../../../../assets/nazbel-logo.png";
+import logo from "../../../../assets/Banner/nazbel-logo.png";
 import banner1 from "../../../../assets/Banner/fire1.webp";
 import banner2 from "../../../../assets/Banner/fire2.webp";
 import banner3 from "../../../../assets/Banner/fire3.webp";

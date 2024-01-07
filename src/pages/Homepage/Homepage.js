@@ -6,6 +6,8 @@ import About from "./body/About/About";
 import Navabar from "../../components/Navbar/Navabar";
 import Footer from "../../components/Footer/Footer";
 import Gallery from "./body/Gallery/Gallery";
+import Founder from "./body/Founder/Founder";
+import GroupWebsites from "./body/GroupWebsites/GroupWebsites";
 
 const Homepage = () => {
   return (
@@ -15,6 +17,8 @@ const Homepage = () => {
       <About />
       <Services />
       <Gallery />
+      <Founder />
+      <GroupWebsites />
       <Footer />
     </>
   );
