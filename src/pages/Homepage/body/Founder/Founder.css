@@ -118,6 +118,11 @@
 
 @media (max-width: 650px) {
   .founder-container {
-    padding: 5rem 5rem 0;
+    padding: 5rem 2rem 0;
+  }
+
+  .founder-info {
+    gap: 3rem;
+    padding: 5rem 2rem;
   }
 }

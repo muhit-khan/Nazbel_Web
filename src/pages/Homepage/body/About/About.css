@@ -40,3 +40,23 @@
   z-index: 1;
   box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.3);
 }
+
+/* Media queries */
+
+@media (max-width: 550px) {
+  .about-img-big {
+    width: 70%;
+  }
+
+  .about-container {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+
+  .about-img-small {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    z-index: 1;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.3);
+  }
+}

@@ -61,15 +61,6 @@
   color: #fff;
 }
 
-/* .banner-text-container h1 {
-  align-self: flex-start;
-  font-size: 8rem;
-  font-family: var(--font-hand);
-  background: linear-gradient(45deg, #ff6b6b, #165e9d);
-  -webkit-background-clip: text;
-  color: transparent;
-} */
-
 .banner-logo {
   align-self: flex-start;
   height: 7rem;
@@ -115,5 +106,15 @@
 @media (max-width: 950px) {
   .banner-arrow {
     bottom: 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner-logo {
+    height: 6rem;
+  }
+
+  .banner-text-container h2 {
+    font-size: 2.5rem;
   }
 }

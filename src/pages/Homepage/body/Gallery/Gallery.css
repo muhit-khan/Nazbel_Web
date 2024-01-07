@@ -68,3 +68,28 @@
   font-family: var(--font-hand);
   letter-spacing: 1px;
 }
+
+/* Media queries */
+
+@media (max-width: 720px) {
+  .gallery {
+    padding: 5rem 0 7rem;
+  }
+
+  .gallery-container {
+    gap: 5rem;
+    margin-top: 5rem;
+    padding: 0 5rem;
+  }
+
+  .gallery-collection {
+    cursor: pointer;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+  }
+}

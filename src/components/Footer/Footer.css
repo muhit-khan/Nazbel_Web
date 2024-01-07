@@ -102,3 +102,17 @@
 .footer-bottom-container p {
   color: #545454;
 }
+
+@media (max-width: 550px) {
+  .footer-top-container {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+
+  .footer-subscribe input {
+    padding: 1rem 1rem;
+  }
+  .footer-subscribe button {
+    padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+  }
+}

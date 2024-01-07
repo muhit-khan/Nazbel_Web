@@ -82,3 +82,11 @@
 .service-card button:hover {
   background-color: #4dffac;
 }
+
+/* Media queries */
+
+@media (max-width: 900px) {
+  .services-container {
+    padding: 0 2rem;
+  }
+}

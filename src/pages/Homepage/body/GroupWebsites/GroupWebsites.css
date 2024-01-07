@@ -16,8 +16,6 @@
 .website-item {
   padding: 5rem;
   background-color: var(--color-white);
-  width: 20rem;
-  height: 20rem;
   margin: 1rem 5rem;
   display: flex;
   flex-direction: column;
@@ -44,4 +42,17 @@
 
 .website-item a:hover {
   color: #3aca87;
+}
+
+/* Media queries */
+
+@media (max-width: 720px) {
+  .website-items {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 3rem;
+    padding: 5rem 3rem 0;
+  }
+  .website-item {
+    margin: 1rem 2rem;
+  }
 }
